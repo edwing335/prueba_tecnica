@@ -1,7 +1,14 @@
 #!/bin/bash
 
 #instalar dependencias
-#pip install dbus-next==0.2.3
+pip install dbus-next==0.2.3
+
+# descargar repo
+mkdir proyecto
+cd proyecto
+git clone https://github.com/edwing335/prueba_tecnica.git
+
+cd prueba_tecnica
 
 #enviar scripts
 sudo cp ./servidor.py /usr/local/bin
