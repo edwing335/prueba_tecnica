@@ -1,0 +1,15 @@
+[Unit]
+Description=sumacomprobacion-dbus
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /usr/local/bin/servidor.py -f /usr/local/bin/config.ini
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
+
